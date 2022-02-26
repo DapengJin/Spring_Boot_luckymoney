@@ -1,0 +1,15 @@
+# #http://localhost:8081/luckymoney/hello
+server:
+  port: 8081 # 设置端口
+  servlet:
+    context-path: /luckymoney # 设置 path
+
+# 定义在 LimitConfig 类里面
+limit:
+  minMoney: 0.02
+  maxMoney: 5
+  description: 最少发${limit.minMoney}元，最多发${limit.maxMoney}元
+
+minMoney: 1
+# 在配置了使用配置 ${}
+description: 最少发${minMoney}元

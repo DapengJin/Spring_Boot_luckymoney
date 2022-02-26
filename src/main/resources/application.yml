@@ -1,0 +1,6 @@
+# 使用 developer 的版本
+# java -jar -Dspring.profiles.active=prod xxxx.jar (使用 prod 配置打包)
+spring:
+  profiles:
+    active: dev  # 在 console 里： The following profiles are active: dev
+
