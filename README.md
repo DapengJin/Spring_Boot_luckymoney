@@ -44,7 +44,7 @@ This metarial is from class https://www.imooc.com/video/20546 using my wechat ac
 
 ### Compatibility Matrix
 
-|  | Read | Write |
+|th1\th2| Read | Write |
 | ----- | ----- | ----- |
 |Read|√|×|
 |Write |×|×|
